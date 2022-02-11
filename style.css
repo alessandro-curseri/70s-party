@@ -318,6 +318,7 @@ hr {
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
+  padding: 0px 10px;
 
 }
 .contact-ul > li > a {
@@ -345,11 +346,16 @@ hr {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  padding: 6px 0px 6px 0px;
+  padding: 6px 10px 6px 10px;
 }
 .day {
   font-weight: 700;
   font-size: 18px;
+}
+.day-offset {
+  position: relative;
+  bottom: 2.8px;
+
 }
 .flex-time > span {
   font-family: "Roboto",Arial,Helvetica,sans-serif;
@@ -428,6 +434,12 @@ a.link {
   }
 
 }
+/* @media(max-width: 500px) {
+  form {
+    width: 100%;
+  }
+  
+} */
 @media(max-width: 450px) {
   .title-pappen {
     font-size: 75px;
@@ -448,9 +460,10 @@ a.link {
 }
 
 .div-form {
-  
-  width: 500px;
+  max-width: 400px;
+  width: 100%;
   margin: auto;
+  padding: 15px;
 }
 form {
   display: flex;
@@ -461,7 +474,8 @@ form {
   
   background-color: #D2042D;
   padding: 20px; 
-  width: 400px; 
+  width: 100%; 
+  max-width: 400px;
   margin-bottom: 20px; 
   border-bottom-width: 1px; 
   border-bottom-style: solid; 
@@ -524,5 +538,6 @@ input:focus {
 .ciao {
   display: flex;
   justify-content: flex-end;
-  width: 400px
+  max-width: 400px;
+  width: 100%;
 }
