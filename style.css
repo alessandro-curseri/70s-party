@@ -352,10 +352,15 @@ hr {
   font-weight: 700;
   font-size: 18px;
 }
+.day-position {
+  margin-top: 4px;
+}
+#date-time-hr-2 {
+  margin-top: 13px;
+}
 .day-offset {
   position: relative;
   bottom: 2.8px;
-
 }
 .flex-time > span {
   font-family: "Roboto",Arial,Helvetica,sans-serif;
