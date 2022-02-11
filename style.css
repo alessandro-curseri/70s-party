@@ -5,11 +5,11 @@ body, html {
   height: 100%;
   padding: 0;
   margin: 0;
-  background-color: #181818;
-  color: white;
+  /* background-color: #181818; */
+  /* color: white; */
 }
 hr {
-  background-color: #D2042D;
+  background-color: #d7a200;
   border: none;
   height: 1px;
 }
@@ -25,7 +25,7 @@ hr {
 .title-pappen {
     font-family: 'Hina Mincho', serif;
     font-size: 100px;
-    color: #D2042D;
+    color: #d7a200;
     margin: 10px 0;
 }
 .subtitle-pappen {
@@ -35,7 +35,7 @@ hr {
 .title {
   text-align: center;
   font-family: 'Hina Mincho', serif;
-  color: #D2042D;
+  color: #d7a200;
 }
 
 .panino-img {
@@ -75,7 +75,7 @@ hr {
   font-family: 'Hina Mincho', serif;
 }
 .redHr {
-  background-color: #D2042D;
+  background-color: #d7a200;
   border: none;
   height: 1px;
   max-width: 420px;
@@ -132,7 +132,7 @@ hr {
   transition: 0.6s ease;
   border-radius: 7px;
   user-select: none;
-  background-color: #D2042D;
+  background-color: #d7a200;
   opacity: 0.8;
 }
 
@@ -185,7 +185,7 @@ hr {
 }
 
 .active, .dot:hover {
-  background-color: #D2042D;
+  background-color: #d7a200;
 }
 
 /* Fading animation */
@@ -248,7 +248,7 @@ hr {
   
   /*when the user hovers,add a black background with some little opacity */
   .Back:hover, .forward:hover {
-    background-color: #D2042D;
+    background-color: #d7a200;
     opacity: 0.8;
   }
   
@@ -285,7 +285,7 @@ hr {
   }
   
   .enable, .dots:hover {
-    background-color: #D2042D;
+    background-color: #d7a200;
   }
   .gallery-img {
     width: auto;
@@ -335,7 +335,7 @@ hr {
 .fas {
   margin-right: 10px;
   font-size: 20px;
-  color: #D2042D;
+  color: #d7a200;
 }
 .time {
   max-width: 400px;
@@ -352,21 +352,13 @@ hr {
   font-weight: 700;
   font-size: 18px;
 }
-.day-position {
-  margin-top: 4px;
-}
-#date-time-hr-2 {
-  margin-top: 10px;
-}
-.day-offset {
-  position: relative;
-  bottom: 2.8px;
-}
+
+
 .flex-time > span {
   font-family: "Roboto",Arial,Helvetica,sans-serif;
 }
 .timeHr {
-  background-color: #D2042D;
+  background-color: #d7a200;
   border: none;
   height: 1px;
   width: 350px;
@@ -410,14 +402,14 @@ footer {
 .home-link {
   cursor: pointer;
   display: inline-block;
-  border: 1px solid #D2042D;
+  border: 1px solid #d7a200;
   border-radius: 7px;
   margin: 0 30px 10px 0;
   padding: 2px 7px;
   font-family: 'Roboto', serif;
   font-weight: 800;
   
-  color: #D2042D;
+  color: #d7a200;
 }
 .home-link:hover {
   box-shadow: 0 0 6px rgb(172, 168, 168);
@@ -477,7 +469,7 @@ form {
 }
 .formStyle { 
   
-  background-color: #D2042D;
+  background-color: #d7a200;
   padding: 20px; 
   width: 100%; 
   max-width: 400px;
@@ -498,7 +490,7 @@ form {
   
 	background-color:#ffffff;
 	display:inline-block;
-	color:#D2042D;
+	color:#d7a200;
 	font-size:28px;
 	font-weight: 500;
 	padding:6px 24px;
@@ -508,7 +500,7 @@ form {
 }
 
 .formButton:hover {
-	background-color: #D2042D;
+	background-color: #d7a200;
   color:#ffffff;
 }
 
